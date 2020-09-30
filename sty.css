@@ -1,0 +1,157 @@
+/* css 文件*/
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea.select{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}/*英文网站字体一般为Arial*/
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ li{
+    list-style: none;
+}
+
+body{
+    background: url(img/header-back.jpg) 
+    repeat-x;
+}
+a{
+    display: block;
+}
+#top {
+    
+    width: 960px;
+    margin: 0 auto;
+    height:30px;
+    
+}
+.menu_top{
+       float: left;
+}
+.menu_top li{
+    float: left;
+    right: 14px;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 18px;
+    margin-right: 15px;
+}
+.menu_top a{
+  
+    color: #c0c0c0;
+
+}
+.menu_top a:hover{
+    color: #ffffff;
+}
+.menu_top .no_dot{}
+
+.bar_top{
+    float: right;
+}
+.bar_top a{
+    color: #ffffff;
+}
+.bar_top li{
+    float: left;
+    right: 14px;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 15px;
+}
+.bar_top a:hover{
+    
+}
+.bar_top .phone{}
+.bar_top .help{}
+
+#header{
+
+    width: 960px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+}
+#shopping{
+   
+    height: 100px;
+    width: 260px;
+    
+}
+ #shopping p{
+    
+    padding:28px 0 0 85px;
+    font-family: Arial;
+    color:#f7f7f7;
+    font-size: 20px;
+}
+#shopping a{
+    display: block;
+    font-family: Arial;
+    width: 114px;
+    height: 23px;
+    padding: 21px 0 0 123px;
+    
+    font-size: bold;
+   text-decoration:none;
+    color: #ffc200;
+}
+#shopping a:hover{
+    color: blanchedalmond;
+}
+
+.search{
+    
+    display: block;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top :0;
+    right: 0;
+}
+.s{
+    float: left;
+    padding-top: 33px;
+    
+}
+
+#header h1{
+    width: 233px;
+    height: 94px;
+    position: absolute;
+    top :0;
+    left: 50%;
+    margin-left: -116.5px;
+}
+
+#nav {
+    width: 960px;
+    margin: 0 auto;
+    height: 44px;
+    position: relative;
+}
+#nav ul{
+    float: left;
+    /*padding-left: 62px;*/
+}
+#nav li{
+    line-height: 44px;
+    padding-right: 40px;
+    float: left;
+    font-size: 13px
+   
+}
+#nav a:hover{
+   color: bisque;
+}
+#nav a{
+    color: #ffffff;
+
+}
